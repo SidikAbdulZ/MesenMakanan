@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AlamatPengirimanActivity">
+
+    <TextView
+        android:id="@+id/text_alamat_pengiriman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alamat_pengiriman"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_nama_penerima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_alamat_pengiriman"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:hint="@string/nama_penerima"
+        android:minHeight="48dp"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/edit_text_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_nama_penerima"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:hint="@string/alamat"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/edit_text_telepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_alamat"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:hint="@string/telepon"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_order_sekarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_sekarang"
+        android:layout_below="@id/edit_text_telepon"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

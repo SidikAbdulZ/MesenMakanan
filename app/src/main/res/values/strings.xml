@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MesenMakanan</string>
+    <string name="alamat_pengiriman">Alamat Pengiriman</string>
+    <string name="nama_penerima">Nama Penerima</string>
+    <string name="alamat">Alamat</string>
+    <string name="telepon">Telepon</string>
+    <string name="order_sekarang">Order Sekarang</string>
+</resources>
