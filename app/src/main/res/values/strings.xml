@@ -5,4 +5,11 @@
     <string name="alamat">Alamat</string>
     <string name="telepon">Telepon</string>
     <string name="order_sekarang">Order Sekarang</string>
+    <string name="home">Home</string>
+    <string name="keranjang">Keranjang</string>
+    <string name="profile">Profile</string>
+    <string name="register">Register</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
 </resources>

@@ -26,6 +26,8 @@
         android:autofillHints=""
         android:hint="Username"
         android:minHeight="48dp"
+        android:background="@drawable/edit_text_border"
+        android:padding="12dp"
         tools:ignore="HardcodedText,TextFields,VisualLintTextFieldSize" />
 
     <EditText
@@ -38,6 +40,8 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:background="@drawable/edit_text_border"
+        android:padding="12dp"
         tools:ignore="HardcodedText,VisualLintTextFieldSize" />
 
     <Button
@@ -47,7 +51,7 @@
         android:layout_below="@id/edit_text_password"
         android:layout_marginTop="16dp"
         android:text="Login"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         tools:ignore="HardcodedText,VisualLintButtonSize" />
 
 </RelativeLayout>

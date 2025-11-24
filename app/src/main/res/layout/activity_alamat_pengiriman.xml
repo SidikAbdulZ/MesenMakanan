@@ -36,7 +36,6 @@
         android:autofillHints=""
         android:hint="@string/alamat"
         android:minHeight="48dp"
-        android:textColorHint="#546E7A"
         tools:ignore="TextFields" />
 
     <EditText

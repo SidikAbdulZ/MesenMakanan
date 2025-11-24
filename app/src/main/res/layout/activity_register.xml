@@ -10,7 +10,7 @@
         android:id="@+id/text_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="@string/register"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
@@ -23,9 +23,11 @@
         android:layout_below="@id/text_register"
         android:layout_marginTop="16dp"
         android:autofillHints=""
-        android:hint="Nama Lengkap"
+        android:hint="@string/nama_lengkap"
         android:minHeight="48dp"
-        android:textColorHint="#546E7A"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edit_text_border"
+        android:padding="12dp"
         tools:ignore="TextFields,VisualLintTextFieldSize" />
 
     <EditText
@@ -35,8 +37,11 @@
         android:layout_below="@id/edit_text_nama_lengkap"
         android:layout_marginTop="8dp"
         android:autofillHints=""
-        android:hint="Username"
+        android:hint="@string/username"
         android:minHeight="48dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edit_text_border"
+        android:padding="12dp"
         tools:ignore="TextFields,VisualLintTextFieldSize" />
 
     <EditText
@@ -46,9 +51,12 @@
         android:layout_below="@id/edit_text_username_register"
         android:layout_marginTop="8dp"
         android:autofillHints=""
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edit_text_border"
+        android:padding="12dp"
         tools:ignore="VisualLintTextFieldSize" />
 
     <Button
@@ -58,7 +66,7 @@
         android:layout_below="@id/edit_text_password_register"
         android:layout_marginTop="16dp"
         android:text="Register"
-        android:textColor="#000000"
-        tools:ignore="DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+        android:textColor="@color/white"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,VisualLintButtonSize" />
 
 </RelativeLayout>

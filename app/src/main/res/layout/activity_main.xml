@@ -11,9 +11,10 @@
         android:id="@+id/text_mesen_makanan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mesen Makanan"
+        android:text="Mesen \nMakanan"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textAlignment="center"
         android:layout_centerInParent="true"/>
 
     <TextView

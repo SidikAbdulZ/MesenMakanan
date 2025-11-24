@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Register"
-            android:textColor="#000000"
+            android:textColor="@color/white"
             tools:ignore="VisualLintButtonSize" />
 
         <Button
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Login"
-            android:textColor="#546E7A"
+            android:textColor="@color/black"
             tools:ignore="VisualLintButtonSize" />
     </LinearLayout>
 
