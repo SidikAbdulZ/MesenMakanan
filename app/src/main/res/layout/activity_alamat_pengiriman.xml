@@ -25,7 +25,9 @@
         android:autofillHints=""
         android:hint="@string/nama_penerima"
         android:minHeight="48dp"
-        tools:ignore="TextFields" />
+        android:background="@drawable/edit_text_border"
+        android:padding="12dp"
+        tools:ignore="TextFields,VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/edit_text_alamat"
@@ -36,7 +38,9 @@
         android:autofillHints=""
         android:hint="@string/alamat"
         android:minHeight="48dp"
-        tools:ignore="TextFields" />
+        android:background="@drawable/edit_text_border"
+        android:padding="12dp"
+        tools:ignore="TextFields,VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/edit_text_telepon"
@@ -47,7 +51,12 @@
         android:autofillHints=""
         android:hint="@string/telepon"
         android:inputType="phone"
-        android:minHeight="48dp" />
+        android:background="@drawable/edit_text_border"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+
 
     <Button
         android:id="@+id/button_order_sekarang"
@@ -55,6 +64,7 @@
         android:layout_height="wrap_content"
         android:text="@string/order_sekarang"
         android:layout_below="@id/edit_text_telepon"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        tools:ignore="VisualLintButtonSize" />
 
 </RelativeLayout>

@@ -13,7 +13,8 @@
         android:text="Halo Nama,"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginBottom="24dp"/>
+        android:layout_marginBottom="24dp"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/text_makanan"
@@ -23,7 +24,8 @@
         android:text="Makanan"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view_makanan"
@@ -35,6 +37,7 @@
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        tools:ignore="VisualLintBottomNav" />
 
 </RelativeLayout>

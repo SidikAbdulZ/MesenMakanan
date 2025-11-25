@@ -13,23 +13,27 @@
         android:text="Halo Nama,"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginBottom="24dp"/>
+        android:layout_marginBottom="24dp"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/text_keranjang_belanja"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/text_halo_nama"
-        android:text="Keranjang Belanja Kamu Kosong"
-        android:textSize="16sp"
+        android:text="Keranjang Belanja Kamu Kosong, nih!"
+        android:textStyle="bold"
+        android:textSize="18sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="250dp"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/button_checkout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="Checkout" />
+        android:text="Checkout"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
 
 </RelativeLayout>

@@ -22,7 +22,8 @@
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginBottom="16dp"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/text_selesai"
@@ -30,7 +31,8 @@
             android:layout_height="wrap_content"
             android:text="Pesanan kamu telah diterima. Silakan tunggu konfirmasi selanjutnya. Terima kasih sudah memesan di Mesen Makanan."
             android:textSize="16sp"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
@@ -39,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="Selesai" />
+        android:text="Selesai"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
 
 </RelativeLayout>
